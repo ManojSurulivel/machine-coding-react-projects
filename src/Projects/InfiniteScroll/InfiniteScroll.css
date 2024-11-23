@@ -1,0 +1,29 @@
+.app {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    text-align: center;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 10px;
+    color: #666;
+  }
+  

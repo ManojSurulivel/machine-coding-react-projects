@@ -1,0 +1,68 @@
+/* Holy Grail Layout Styles */
+.holy-grail {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "left main right"
+      "footer footer footer";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    gap: 10px;
+  }
+  
+  .header {
+    grid-area: header;
+    background-color: #4caf50;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .footer {
+    grid-area: footer;
+    background-color: #4caf50;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .left-sidebar {
+    grid-area: left;
+    background-color: #2196f3;
+    padding: 10px;
+    color: white;
+  }
+  
+  .right-sidebar {
+    grid-area: right;
+    background-color: #f44336;
+    padding: 10px;
+    color: white;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: main;
+    background-color: #e0e0e0;
+    padding: 10px;
+  }
+
+  
+
+  @media (max-width: 768px) {
+  .holy-grail {
+    grid-template-areas:
+      "header"
+      "main"
+      "left"
+      "right"
+      "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+  }
+}

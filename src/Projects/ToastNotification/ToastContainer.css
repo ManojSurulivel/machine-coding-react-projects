@@ -1,0 +1,17 @@
+.toast-container {
+    position: relative;
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .toast-wrapper {
+    position: fixed;
+    top: 20px; /* Adjust this for vertical placement */
+    right: 20px; /* Adjust this for horizontal placement */
+    z-index: 1000; /* Ensure it appears above other elements */
+    display: flex;
+    flex-direction: column; /* Stack the toasts vertically */
+    gap: 10px; /* Add spacing between toasts */
+  }
+  

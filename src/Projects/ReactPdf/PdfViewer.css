@@ -1,0 +1,46 @@
+.pdf-viewer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .pdf-page-controls {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .pdf-navigation-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .pdf-navigation-buttons button {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pdf-navigation-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pdf-document {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  

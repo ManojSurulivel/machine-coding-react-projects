@@ -1,0 +1,52 @@
+/* Joke.css */
+
+body {
+    background-color: rgb(47, 97, 80);
+}
+
+.joke {
+    padding: 50px;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    place-content: center;
+    color: beige;
+}
+
+h1 {
+    text-align: center;
+    color: beige;
+}
+/* Button.css */
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #70a03a;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color .5s;
+}
+
+button:hover {
+    background-color: #c1f590;
+}
+
+button:active {
+    background-color: #297910;
+}
+
+/* .para{
+    display: flex;
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    color: aqua;
+    place-content: center;
+    flex-direction: column;
+
+} */

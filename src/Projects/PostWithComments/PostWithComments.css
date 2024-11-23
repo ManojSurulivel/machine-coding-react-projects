@@ -1,0 +1,36 @@
+.app {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .posts,
+  .comments {
+    margin: 20px 0;
+  }
+  
+  .post {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .post.active {
+    background-color: #f0f8ff;
+    border-color: #007bff;
+  }
+  
+  .comment {
+    margin: 10px 0;
+    background: #f9f9f9;
+    padding: 5px 10px;
+    border-left: 3px solid #007bff;
+    border-radius: 3px;
+  }
+  

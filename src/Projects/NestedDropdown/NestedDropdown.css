@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 32px;
+    padding: 50px;
+    background-color: #f8f9fa;
+  }
+  
+  .App {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #343a40;
+  }
+  
+  .countries,
+  .states,
+  .cities {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .country-button,
+  .state-button {
+    width: 100%;
+    text-align: left;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .country-button:hover,
+  .state-button:hover {
+    background: #0056b3;
+  }
+  
+  .states,
+  .cities {
+    padding-left: 20px;
+  }
+  
+  .city-item {
+    color: #495057;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .city-item:last-child {
+    border-bottom: none;
+  }
+  

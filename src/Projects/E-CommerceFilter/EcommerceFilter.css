@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .app {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .filters,
+  .products {
+    margin: 20px 0;
+  }
+  
+  .filters div,
+  .products .product {
+    margin: 10px 0;
+  }
+  
+  .product {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fefefe;
+  }
+  
+  .product h4 {
+    margin: 0 0 5px;
+  }
+  
+  label {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  select,
+  input[type="checkbox"] {
+    margin-left: 10px;
+  }
+  

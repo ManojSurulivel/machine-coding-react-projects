@@ -1,0 +1,193 @@
+/* .poll-widget {
+  text-align: center;
+}
+
+.poll-widget ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.poll-widget button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.poll-widget button:hover {
+  background-color: #45a049;
+}
+
+.poll-results {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.poll-results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.poll-option {
+  font-weight: bold;
+}
+
+.poll-result {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.total-votes {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+} */
+
+
+
+.poll-widget {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.poll-widget ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.poll-widget button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.poll-widget button:hover {
+  background-color: #45a049;
+}
+
+.poll-results {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.poll-results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.poll-option {
+  font-weight: bold;
+}
+
+.poll-result {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.total-votes {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+
+/* General body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main App container styling */
+.App {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 400px; /* Adjust the width for the poll widget */
+  text-align: center;
+}
+
+/* Poll widget container styles */
+.poll-widget {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Styling for the poll options list */
+.poll-widget ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Styling for the buttons inside the poll */
+.poll-widget button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for poll option buttons */
+.poll-widget button:hover {
+  background-color: #45a049;
+}
+
+/* Styling for the poll results section */
+.poll-results {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.poll-results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.poll-option {
+  font-weight: bold;
+}
+
+.poll-result {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.total-votes {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Add some space around the App container for better visibility */
+.App h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}

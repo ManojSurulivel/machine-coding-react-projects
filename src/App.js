@@ -1,10 +1,10 @@
 import React from 'react'
-import Qrcode from './Projects/Qrcode-generator/Qrcode.js'
+import BlogPost from './Projects/BlogPost/BlogPost'
 
 const App = () => {
   return (
     <div>
-      <Qrcode />
+        <BlogPost />
     </div>
   )
 }

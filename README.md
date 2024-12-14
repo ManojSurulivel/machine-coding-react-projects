@@ -59,3 +59,9 @@
 29. StateAndProps
 
 30. CustomSlider
+
+31. BlogPost
+
+32. Article Sorting
+
+33. Word Omitter
